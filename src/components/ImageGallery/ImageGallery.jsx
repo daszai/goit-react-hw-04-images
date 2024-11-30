@@ -70,7 +70,7 @@ const ImageGallery = ({ serach }) => {
       }
     };
     a();
-  }, [serach, page]);
+  }, [serach, page]); // eslint-disable-line react-hooks/exhaustive-deps
   //////////////////////////////////
   const clickButton = () => {
     setBtnclick(true);
